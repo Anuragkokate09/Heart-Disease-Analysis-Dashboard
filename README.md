@@ -1,67 +1,61 @@
-🫀 Heart Disease Analysis Dashboard (Power BI)
+🫀 Heart Disease Analysis Dashboard – Power BI
 
-This repository hosts the files for a comprehensive Power BI dashboard designed to analyze key clinical factors and their impact on patient survival rates related to heart disease.
+📌 Overview
 
-The dashboard provides interactive visualizations to explore mortality metrics, risk factor distributions, and cumulative outcomes over time.
+The Heart Disease Analysis Dashboard provides a comprehensive and interactive view of clinical data to analyze patient survival outcomes. It focuses on identifying how key clinical factors (like Ejection Fraction and Serum Creatinine) and demographic risk factors influence mortality rates. This dashboard is crucial for quickly pinpointing high-risk patient segments.
 
-📊 Dashboard Overview
+📈 Insights Delivered
 
-The analysis is structured around two main pages/sections, covering the key insights from the data:
+The analysis is structured around two main pages:
 
-1. Clinical Factors and Survival
+🏥 Clinical Factors and Survival
 
-This page focuses on core medical metrics and survival outcomes:
+Key Metrics: Survival Rate, Total Survivors, Total Deaths, and Average Age of Survival.
 
-Survival Rate & Smoker Rate: High-level metrics for quick assessment.
+Clinical Visuals: Distribution of survival status across Ejection Fraction (EF) and Serum Creatinine levels.
 
-Survival by Ejection Fraction (EF): Visual comparison of survival status based on Ejection Fraction bins.
+Trend Analysis: Cumulative survival vs. cumulative deaths over the observation period.
 
-Creatinine Levels and Death Count: Analysis of Serum Creatinine levels against mortality.
+🧪 Impact of Risk Factors on Survival
 
-Cumulative Outcomes Over Time: Trends showing cumulative deaths versus cumulative survivals.
+Risk Factor Breakdown: Analysis of patient proportions by Diabetes and the effect of Smoking Status on age distribution.
 
-2. Impact of Risk Factors on Survival
+Survival Correlation: Heatmap analysis showing the interaction of combined risk factors (Smoking, High Blood Pressure, Anaemia) on final survival outcomes.
 
-This page investigates the influence of specific patient risk factors:
+🛠️ Tools & Technologies
 
-Proportion of Patients by Diabetes Status: Breakdown of diabetic vs. non-diabetic patients.
+Tool: Power BI Desktop (DAX) 📊 – For dashboard design and custom measure creation.
 
-Sum of Age by Smoking Status: Analysis of age distribution across smoking statuses.
+Data Transformation: Power Query – Used for initial data cleaning and shaping.
 
-Distribution of Risk Factor Combinations: Heatmap/chart showing how different combinations of risk factors affect survival.
+Measures: DAX (Data Analysis Expressions) – Utilized to calculate Survival Rate, Median EF, and other custom KPIs.
 
-🛠️ Technology Used
+Data Source: heart_failure_clinical_records_dataset.csv 📁
 
-Platform: Power BI Desktop (DAX)
+📂 Repository Contents
 
-Key Techniques: Data Wrangling, Feature Engineering, Custom Measures (Survival Rate, Median Ejection Fraction), Data Visualization.
+Heart Failure Dashboard.pbix – Main Power BI dashboard file.
 
-Key DAX Measures: Survival Rate, Median Ejection Fraction, Smoker Rate.
+heart_failure_clinical_records_dataset.csv – Raw clinical data for the analysis.
 
-Data Source: (Specify your data source, e.g., Clinical Records CSV)
+README.md – Documentation file (this file).
 
-🚀 How to View the Dashboard
+Images/ – Dashboard screenshots (to be added).
 
-Download: Clone this repository or download the contents as a ZIP file.
+🚀 Getting Started
 
-Open: Open the Heart Disease Analysis Dashboard.pbix file using Power BI Desktop.
+Download: Clone this repository to your local machine.
 
-Interact: Use the built-in slicers and filters to explore different age groups, risk factors, and metrics.
+Open: Open the Heart Failure Dashboard.pbix file using Power BI Desktop.
 
-👨‍💻 Developer Profile
+Explore: Interact with the built-in slicers (age group, gender, risk factors) to explore the data in real-time.
 
-This project was developed by Anurag Kokate as part of his data analytics portfolio.
+🔗 Connect with Me
 
-Core Expertise: Python, SQL, Power BI, and Data Wrangling.
+Anurag Kokate
 
-📧 Contact
+📧 Email: anuragkokate52@gmail.com
 
-I'm happy to connect and discuss this project or other data analysis opportunities!
+💼 LinkedIn: https://www.linkedin.com/in/anuragkokate09
 
-Email: anuragkokate52@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/anuragkokate09
-
-Portfolio: anurag09.netlify.app
-
-GitHub: @Anuragkokate09
+🌐 Portfolio: anurag09.netlify.app
